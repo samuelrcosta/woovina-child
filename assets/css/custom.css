@@ -1,3 +1,35 @@
-#teste {
-  color: red;
+#woovina-copyright {
+	display: none!important;
+}
+
+#footer-widgets .footer-box .widget-title {
+	color: #FFDF2B!important;
+}
+
+.woocommerce ul.products li.product li.btn-wrap .btn-positions .btn-inner a {
+		display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+.woo-wishlist-link span.wishlist_products_counter_number, .woo-menu-icon .wcmenucart .wcmenucart-count .count {
+	background-color: #004aad!important;
+}
+
+.wcmenucart-toggle-drop_down::before {
+	    border-bottom: 5px solid #004aad;
+}
+
+body .theme-button, body input[type="submit"], body button[type="submit"], body button, body .button {
+    background-color: #ffffff;
+    border-color: #004aad;
+}
+
+.yith-woocompare-widget a.compare {
+	color: #004aad;
+	border-color: #004aad;
+}
+
+.yith-woocompare-widget a.compare:hover {
+    background-color: #004aad;
 }
