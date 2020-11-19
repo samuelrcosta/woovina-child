@@ -52,7 +52,8 @@ body .button {
 	color: #ffdf2b !important;
 }
 
-#footer-bottom a, #footer-bottom #footer-bottom-menu a {
+#footer-bottom a,
+#footer-bottom #footer-bottom-menu a {
 	color: #ffdf2b !important;
 }
 
@@ -105,10 +106,47 @@ body .button {
 	color: #004aad !important;
 }
 
-#footer-widgets .footer-box a:hover, #footer-widgets a:hover {
+#footer-widgets .footer-box a:hover,
+#footer-widgets a:hover {
 	color: #ffdf2b !important;
 }
 
-.site-main .container .sidebar-container .custom-menu-widget .woovina-custom-menu .sf-menu .menu-item:hover>a, .site-main .container .sidebar-container .widget_product_categories .product-categories .cat-item:hover>a {
+.site-main .container .sidebar-container .custom-menu-widget .woovina-custom-menu .sf-menu .menu-item:hover > a,
+.site-main .container .sidebar-container .widget_product_categories .product-categories .cat-item:hover > a {
 	color: #004aad !important;
+}
+
+#top-bar-content a:hover,
+#top-bar-social-alt a:hover {
+	color: #fff !important;
+}
+
+div#sidr div.sidr-inner ul.sidr-class-mobile-menu li.sidr-class-current-menu-item > a {
+	color: #004aad !important;
+}
+
+@media only screen and (max-width: 767px) {
+	#top-bar {
+		display: none;
+	}
+}
+
+#mobile-navbar.navigation ul li.current-menu-item a {
+	color: #004aad !important;
+}
+
+@media screen and (max-width: 767px) {
+	#mobile-navbar.navigation ul li a:hover {
+		color: #004aad !important;
+	}
+}
+
+@media only screen and (max-width: 959px) {
+	body.has-breadcrumbs .page-header-title {
+		margin-bottom: 0;
+	}
+
+	.site-main .page-header {
+		padding: 12px 0;
+	}
 }
