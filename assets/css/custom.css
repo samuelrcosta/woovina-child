@@ -150,3 +150,7 @@ div#sidr div.sidr-inner ul.sidr-class-mobile-menu li.sidr-class-current-menu-ite
 		padding: 12px 0;
 	}
 }
+
+.wpforms-form .wpforms-submit-container button[type="submit"].sub-form:hover {
+	background-color: #004aad !important;
+}
