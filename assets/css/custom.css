@@ -125,12 +125,6 @@ div#sidr div.sidr-inner ul.sidr-class-mobile-menu li.sidr-class-current-menu-ite
 	color: #004aad !important;
 }
 
-@media only screen and (max-width: 767px) {
-	#top-bar {
-		display: none;
-	}
-}
-
 #mobile-navbar.navigation ul li.current-menu-item a {
 	color: #004aad !important;
 }
@@ -153,4 +147,71 @@ div#sidr div.sidr-inner ul.sidr-class-mobile-menu li.sidr-class-current-menu-ite
 
 .wpforms-form .wpforms-submit-container button[type="submit"].sub-form:hover {
 	background-color: #004aad !important;
+}
+
+#footer-widgets .woovina-newsletter-form-wrap input[type="email"]:focus {
+	border-color: #004aad !important;
+}
+
+.wpforms-form .wpforms-submit-container button[type="submit"].sub-form:hover {
+	background-color: #004aad !important;
+}
+
+@media (max-width: 767px) {
+	body.woocommerce div.product .woocommerce-tabs ul.tabs li.active > a {
+		background: #004aad !important;
+	}
+}
+
+.entry-summary .cart .added_to_cart.wc-forward {
+	border-color: #004aad !important;
+	color: #004aad !important;
+}
+
+.widget_shopping_cart_content .buttons .checkout {
+	background-color: #004aad !important;
+}
+
+@media only screen and (max-width: 959px) {
+	#main #content-wrap.container {
+		width: auto !important;
+		padding-top: 15px !important;
+	}
+
+	#site-logo #site-logo-inner {
+		background: url(../img/logo-mobile.png) no-repeat 0 3px;
+		background-size: contain;
+		width: 200px;
+	}
+
+	#site-logo #site-logo-inner,
+	.woovina-social-menu .social-menu-inner,
+	#site-header.full_screen-header .menu-bar-inner,
+	.after-header-content .after-header-content-inner {
+		height: 65px !important;
+	}
+
+	#site-navigation-wrap .dropdown-menu > li.search-toggle-li {
+		line-height: 65px !important;
+	}
+
+	#site-navigation-wrap .dropdown-menu > li > a,
+	.woovina-mobile-menu-icon a,
+	.after-header-content-inner > a {
+		line-height: 65px !important;
+	}
+
+	#site-logo #site-logo-inner a img {
+		display: none;
+	}
+
+	#top-bar {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.sidr-class-mobile-searchform .sidr-class-searchform-submit:hover {
+		color: #004aad !important;
+	}
 }
