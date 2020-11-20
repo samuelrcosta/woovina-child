@@ -215,3 +215,12 @@ div#sidr div.sidr-inner ul.sidr-class-mobile-menu li.sidr-class-current-menu-ite
 		color: #004aad !important;
 	}
 }
+
+.product_meta span.sku_wrapper {
+	font-size: 11px;
+}
+
+.woocommerce div.product form.cart .variations .reset_variations {
+	border: 0;
+	margin-top: 0;
+}
